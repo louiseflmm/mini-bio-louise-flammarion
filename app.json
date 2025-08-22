@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Mini Bio - Louise Flammarion",
+    "slug": "mini-bio-louise-flammarion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.louiseflmm.minibiolouiseflammarion"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.louiseflmm.minibiolouiseflammarion"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d9cf578-bdd1-48a8-bdee-df95655b6d43"
+      }
+    },
+    "owner": "louiseflmm",
+    "updates": {
+      "url": "https://u.expo.dev/4d9cf578-bdd1-48a8-bdee-df95655b6d43"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
